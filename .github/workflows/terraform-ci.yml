@@ -45,4 +45,6 @@ jobs:
 
       # Apply Terraform changes (This step should be manually approved or automatic)
       - name: Terraform Apply
-        run: terraform apply -auto-approve tfplan
+        run: terraform apply -auto-approve tfplan 
+
+     
